@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/YellowBackground">
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:layout_marginStart="135dp"
+            android:contentDescription="@string/neutral_face"
+            app:srcCompat="@drawable/ic_neutral_face" />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="125dp"
+        android:layout_marginTop="200dp"
+        android:text="35.4 µg/m3"
+        android:textColor="@color/DarkGrey"
+        android:textSize="23sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="423dp"
+        android:layout_height="276dp"
+        tools:layout_editor_absoluteY="383dp"
+        tools:ignore="MissingConstraints"
+        >
+
+        <TextView
+            android:layout_width="209dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="125dp"
+            android:layout_marginTop="50dp"
+            android:text="@string/yellow_screen_infotext"
+            android:textColor="@color/DarkGrey"
+            android:textSize="23sp"
+            tools:text="30 – 150 µg/m3" />
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

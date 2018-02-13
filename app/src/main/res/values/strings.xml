@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">AirQualitySystem</string>
+    <string name="homescreen_image">homescreen image</string>
+    <string name="homescreen_text">This is the home screen</string>
+    <string name="middlescreen_text">Power On Air \nQuality System</string>
+    <string name="next_btn">next</string>
+    <string name="next_button">next button</string>
+    <string name="neutral_face">neutral_face</string>
+    <string name="sad_face">sad face</string>
+    <string name="allow_BT">Application is requesting\npermission to turn on Bluetooth.\nAllow?</string>
+    <string name="yellow_screen_infotext">30 – 150 µg/m3</string>
+    <string name="network_string">I want to monitor\n Air Quality from\n outside of my office</string>
+    <string name="skip_btn">Skip</string>
+</resources>
